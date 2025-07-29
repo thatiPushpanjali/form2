@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<body style="background-color: white; font-family: Arial, Helvetica, sans-serif;">
+    <div style="background-color: #045b6f; color: white; width:700px; margin: 50px auto; padding: 30px; border-radius: 10px;">
+        <h1 style="text-align: center;"> Application Form</h1>
+        <form action="./submit.html" method="get" autocomplete="off">
+            <label> First Name:</label>
+            <input type="text" name="First Name">
+            <label style="margin-left: 20px;"> Last Name:</label>
+            <input type="text" name="Last Name"><br><br>
+
+            <label> Date of birth:</label>
+            <input type="date" name="Date of birth">
+            <label style="margin-left: 60px;"> Age:</label>
+            <input type="number" name="Age"><br><br>
+
+            <label> Gender:</label>
+            <select>
+                <option> ... select...</option>
+                <option> Male</option>
+                <option> Female</option>
+                <option> Others</option>
+            </select>
+            <label style="margin-left: 120px;"> Email Address:</label>
+            <input type="text" name="Email" placeholder="Enter email address"><br><br>
+
+            <label> Positions Available:</label>
+            <input type="radio" name="positions" value="junior"> Junior Developer
+            <input type="radio" name="positions" value="mid">Mid-level Developer
+            <input type="radio" name="positions" value="Senior"> Senior Developer<br><br>
+
+            <label> Programming Languages:</label>
+            <input type="checkbox" name="lang" value="Java">Java
+            <input type="checkbox" name="lang" value="JavaScript">JavaScript
+            <input type="checkbox" name="lang" value="Python">Python<br><br>
+
+            <label> Password:</label>
+            <input type="password" name="pass">
+            <label style="margin-left: 35px;"> Confirm Password</label>
+            <input type="password" name="confirm"><br><br>
+            <center>
+                <input type="submit" value="Submit" style="background-color: #f96332; color: white; padding: 8px 20px; border-radius: 4px;">
+                <input type="reset" value="Reset" style="background-color: #f96332;color: white; padding: 8px 20px; border-radius: 4px;">
+            </center>
+
+        </form>
+
+    </div>
+    
+</body>
+</html>
